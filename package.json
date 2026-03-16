@@ -1,0 +1,35 @@
+{
+  "name": "tauri_react_boilerplate",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^1.167.3",
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-opener": "^2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tanstack/router-plugin": "^1.166.12",
+    "@tauri-apps/cli": "^2",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "eslint": "^10.0.3",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^17.4.0",
+    "jiti": "^2.6.1",
+    "prettier": "^3.8.1",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.57.0",
+    "vite": "^7.0.4"
+  }
+}
