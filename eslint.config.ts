@@ -4,7 +4,15 @@ import react from 'eslint-plugin-react'
 import tseslint from 'typescript-eslint'
 
 export default [
-  { ignores: ['dist/', 'node_modules/', 'src-tauri/', 'eslint.config.ts'] },
+  {
+    ignores: [
+      'dist/',
+      'node_modules/',
+      'src-tauri/',
+      'eslint.config.ts',
+      'vite.config.ts',
+    ],
+  },
   js.configs.recommended,
   ...tseslint.configs.recommended,
   {
